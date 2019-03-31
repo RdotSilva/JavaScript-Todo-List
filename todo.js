@@ -11,3 +11,8 @@ function addTodo(todo) {
 
 addTodo('some stuff');
 displayTodos();
+
+function changeTodo(position, newValue) {
+    todos[position] = newValue;
+    displayTodos();
+}
